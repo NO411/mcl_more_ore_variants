@@ -425,6 +425,8 @@ if minetest.settings:get_bool("mcl_generate_ores", true) then
 			{ coal, 500 * 3, 5, 3, mcl_worlds.layer_to_y(81), mcl_worlds.layer_to_y(128) },
 			{ iron, 830, 5, 3, mcl_vars.mg_overworld_min, mcl_worlds.layer_to_y(39) },
 			{ iron, 1660, 4, 2, mcl_worlds.layer_to_y(40), mcl_worlds.layer_to_y(63) },
+			{ copper, 830, 5, 3, mcl_vars.mg_overworld_min, mcl_worlds.layer_to_y(39) },
+			{ copper, 1660, 4, 2, mcl_worlds.layer_to_y(40), mcl_worlds.layer_to_y(63) },
 			{ gold, 4775, 5, 3, mcl_vars.mg_overworld_min, mcl_worlds.layer_to_y(30) },
 			{ gold, 6560, 7, 3, mcl_vars.mg_overworld_min, mcl_worlds.layer_to_y(30) },
 			{ gold, 13000, 4, 2, mcl_worlds.layer_to_y(31), mcl_worlds.layer_to_y(33) },
