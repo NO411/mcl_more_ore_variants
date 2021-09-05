@@ -456,5 +456,4 @@ if minetest.settings:get_bool("mcl_generate_ores", true) then
 			override_ore(o[1], o[2], o[3], o[4], o[5], o[6])
 		end
 	end
-
 end
